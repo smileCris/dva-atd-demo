@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Carousel } from "antd";
-import "./index.css";
+import styles from "./index.css";
 class Child3 extends Component {
   componentDidMount() {
     console.log("Child3");
@@ -24,7 +24,7 @@ class Child3 extends Component {
             <h3>4</h3>
           </div>
         </Carousel>
-        <h1 style={{ marginBottom: 16 }}>
+        <h1 className={styles.test}>
           <Link to="/">Return to index</Link>
         </h1>
       </div>

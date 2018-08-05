@@ -1,3 +1,7 @@
+.test {
+  margin-bottom: 16px;
+}
+
 :global .ant-carousel .slick-slide {
   text-align: center;
   height: 160px;
